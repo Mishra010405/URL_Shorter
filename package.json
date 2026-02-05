@@ -1,0 +1,16 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "\"This is the URL Shortner Project to Short the Url..",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "SHivam Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.1.6",
+    "nanoid": "^5.1.6"
+  }
+}
