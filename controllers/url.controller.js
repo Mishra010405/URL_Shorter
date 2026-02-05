@@ -7,6 +7,7 @@ async function handlegrenratenewurl(req, res) {
     if (!body.url) {
         return res.status(400).json({ error: "Url is required" });
     }
+    console.log("BODY:", req.body);
 
     const shortId = nanoid(8);
 

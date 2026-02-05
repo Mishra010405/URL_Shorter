@@ -9,6 +9,7 @@
   "author": "SHivam Mishra",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1",
     "mongoose": "^9.1.6",
     "nanoid": "^5.1.6"

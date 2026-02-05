@@ -2,6 +2,7 @@ const express =  require('express');
 const {connectToMongodb}  = require("./connection.js")
 const router = require('./routes/url.routes.js')
 const URL = require("./models/url");
+const cors = require("cors");
 
 
 
@@ -11,6 +12,8 @@ const URL = require("./models/url");
 const app = express();
 
 const PORT = 8001;
+
+app.use(cors());
 
 
 connectToMongodb("mongodb+srv://shivam05:Mishra010405@cluster0.3nlkglu.mongodb.net/Sortest-URL")
